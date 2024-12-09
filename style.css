@@ -1,0 +1,122 @@
+body {
+	background: linear-gradient(to right, #00509e, #00aaff, #f0f8ff);
+	background-size : cover ;
+	background-attachment: fixed;
+	height: 100% ; 
+	color : rgb(200;200;200) ;
+	font-family : georgia;
+	font-size: 20px;
+	font-weight : light;
+}
+
+h1, h2,  {font-family: 'lato', sans-serif;
+font-weight : bold}
+
+h3, h4, h5, {font-family: 'Raleway', sans-serif;
+font-weight : normal}
+
+.oval-image {
+            width: 650px;    
+            height: 750px;   
+            border-radius: 90%;  
+            object-fit: cover;   
+        }
+h1 {
+	color : rgb(230;230;230);
+	font-weight : 500;
+	letter-spacing : 1px;
+	font-size : 80px;
+	font-weight : bold;
+}
+
+h2 {
+	color : rgb(230;230;230);
+	font-weight : 300;
+	letter-spacing : 1px;
+	font-size : 35px;
+	font-weight : bold;
+}
+
+
+h3{
+	color : rgb(230;230;230);
+	font-weight : 300;
+	font-size : 40px;
+}
+
+h4{
+	color : rgb(230;230;230);
+	font-weight : 300;
+	font-size : 40px;
+}
+
+h5{
+	color : rgb(230;230;230);
+	font-weight : 300;
+	font-size : 40px;
+}
+
+a {
+	text-decoration : none;
+	color : #41521f;
+	font-weight : bold
+}
+
+
+a:hover{
+	color : #c9e3ac
+}
+
+
+.container{
+	width : 700px;
+	margin : 50px auto;
+	padding : 50px;
+	border-radius : 10px;
+	text-align : center
+}
+
+
+@media(max-width : 750px) {
+	.container{
+		width : 650px;
+	} 
+}
+
+
+@media(max-width : 500px) {
+	.container{
+		width : 400px;
+	}
+}
+
+
+
+.card-white{
+	background-color : white;
+	padding : 40px;
+	box-shadow : 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius : 7px;
+	margin : 30px 0px auto;
+	box-shadow: 0px 10px 30px rgb(0,0,0,0.5);
+}
+
+
+.img-circle {
+	border-radius : 50%;
+	box-shadow: 0px 10px 30px rgb(0,0,0,0.5);
+}
+
+
+.list-inline{
+	list-style : none;
+	padding-left : 0px;
+}
+.list-inline li {
+	display : inline;
+	padding : 20px;
+}
+.list-inline i {
+	font-size : 50px;
+	color : dark blue;
+}	
